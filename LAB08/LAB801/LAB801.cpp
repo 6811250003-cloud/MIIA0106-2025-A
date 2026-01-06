@@ -1,0 +1,34 @@
+﻿#include <iostream>
+#include <string>
+using namespace std;
+
+struct Student {
+    string id;
+    string nickname;
+    string lineId;
+    string phone;
+};
+
+int main() {
+    Student s1;
+
+    cout << "=== Input Student 1 ===\n";
+    cout << "Student ID: ";
+    cin >> s1.id;
+    cout << "Nickname: ";
+    cin >> s1.nickname;
+    cout << "Line ID: ";
+    cin >> s1.lineId;
+    cout << "Phone Number: ";
+    cin >> s1.phone;
+    cout << endl;
+
+    cout << "\n=== Output Student 1 ===\n";
+	cout << "Student ID: " << s1.id << endl;
+	cout << "Nickname; " << s1.nickname << endl;
+	cout << "Line ID: " << s1.lineId << endl;
+	cout << "Phone Number: " << s1.phone << endl; 
+
+    return 0;
+}
+
